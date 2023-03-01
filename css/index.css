@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-snap-align: start;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/skelleftea-kommun-idTQ-GbRo5c-unsplash.png");
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main > h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.pages {
+    height: 100vh;
+    background-color: green;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
